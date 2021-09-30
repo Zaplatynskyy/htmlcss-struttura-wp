@@ -15,11 +15,33 @@
     margin-bottom: 20px;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.float_left{
+    float: left;
+}
+
 /* proprietà header */
 
 
 /* proprietà main */
 
+.left_side{
+    width: 20%;
+}
+
+.main_content{
+    width: calc( 60% - 40px );
+    margin: 0 20px;
+}
+
+.right_side{
+    width: 20%;
+}
 
 
 /* **********debug********** */
@@ -43,5 +65,14 @@ main.debug{
     height: 80px;
     background-color: #abcfe7;
 }
+
+.left_side.debug,
+.main_content.debug,
+.right_side.debug{
+    height: 380px;
+    background-color: #abcfe7;
+}
+
+
 
 
