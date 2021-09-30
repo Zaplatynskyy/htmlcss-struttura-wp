@@ -18,8 +18,11 @@
 /* proprietà header */
 
 
+/* proprietà main */
 
-/* *****debug***** */
+
+
+/* **********debug********** */
 
 .header_top.debug{
     height: 80px;
@@ -30,3 +33,15 @@
     height: 400px;
     background-color: #e1d67a;
 }
+
+main.debug{
+   height: 500px;
+   background-color: #0882ff; 
+}
+
+.main_top.debug{
+    height: 80px;
+    background-color: #abcfe7;
+}
+
+
