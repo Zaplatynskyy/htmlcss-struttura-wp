@@ -43,6 +43,13 @@
     width: 20%;
 }
 
+/* proprietà footer */
+
+footer{
+    height: 50px;
+    margin-top: 10px;
+}
+
 
 /* **********debug********** */
 
@@ -71,6 +78,10 @@ main.debug{
 .right_side.debug{
     height: 380px;
     background-color: #abcfe7;
+}
+
+footer.debug{
+    background-color: #8801fe;
 }
 
 
