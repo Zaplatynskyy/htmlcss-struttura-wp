@@ -5,3 +5,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 70%;
+    margin: 20px auto;
+}
+
+.mb_20{
+    margin-bottom: 20px;
+}
+
+/* proprietà header */
+
+
+
+/* *****debug***** */
+
+.header_top.debug{
+    height: 80px;
+    background-color: #e579e6;
+}
+
+.header_bottom.debug{
+    height: 400px;
+    background-color: #e1d67a;
+}
